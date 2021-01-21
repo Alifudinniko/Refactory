@@ -38,8 +38,14 @@ echo $i; //   1
 
 
 for ($i = 1; $i <= 7; $i++) {
-	for ($j = 7; $i <= $j ; $j--) {
-		echo $j;
+	for ($j = 8; $i <= $j ; $j--) {
+		$k = $j - $i;
+	
+		if ($k != 0)
+		{ 
+		echo $k;
+		continue;
+		 }
 	}
 	echo '<br>';
 }
