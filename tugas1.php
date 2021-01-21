@@ -33,15 +33,16 @@ echo $i; //   1
    echo "Saya sedang belajar PHP di duniailkom.com";
    echo "<br>";
    echo "Hello World...";
-?>
-   echo "<br>";
-<?php
 
-for ($i = 1; $i <= 5; $i++) {
-	for ($j = 1; $j <= $i ; $j++) {
+   echo '<br>';
+
+
+for ($i = 1; $i <= 7; $i++) {
+	for ($j = 7; $i <= $j ; $j--) {
 		echo $j;
 	}
 	echo '<br>';
 }
 
+echo '<br>';
 ?>
