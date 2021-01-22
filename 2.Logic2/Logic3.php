@@ -1,11 +1,29 @@
-<form action=”logic3.php” method=”post”>
-	<h1>n : <br>
-		<input type=”text” name=”n”><br>
-		<input type=”submit” value=”Hitung”>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Membuat Form Sederhana</title>
+</head>
+
+<body>
+	<form>
+		<div>
+			<label>N </label> <br>
+			<input name="n" type="text" placeholder="masukkan nilai N">
+		</div>
+
+		<div>
+			<button>Submit</button>
+		</div>
+	</form>
+</body>
+
+</html>
 <?php
 
-$n   = $_POST[‘n’];
+$n   = $_GET['n'];
 
 
 for ($i = 1; $i <= $n * 2 + 1; $i++) {
